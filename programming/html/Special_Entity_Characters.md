@@ -1,0 +1,10 @@
+# Special Entity Characters
+- &copy; (copyright symbol)
+- &nbsp; (nonbreaking space)
+- &quot; (quotation mark)
+- &amp; (ampersand)
+- &rsquo; (right single quote)
+- &mdash; (long dash)
+- &#124; (vertical bar)
+- &lt; (<)
+- &gt; (>)

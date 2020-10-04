@@ -1,0 +1,5 @@
+# windows
+
+
+## Scoop tools
+- lsd
