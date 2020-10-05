@@ -50,6 +50,7 @@ https://alistair.cockburn.us/hexagonal-architecture/
 
 ## Books
 Domain-Driven Design (Eric Evans)
+REST in Practice (O'Reilly)
 
 
 
