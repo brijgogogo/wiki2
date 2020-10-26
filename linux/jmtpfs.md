@@ -1,10 +1,14 @@
 # jmtpfs
 data transfer from android devices
 - mkdir /tmp/myphone
-- jmtpfs /tmp/myphone
+
+- load
+ jmtpfs /tmp/myphone
 
 - ls /tmp/myphone
-- fusermount -u /tmp/myphone
+
+- eject
+ fusermount -u /tmp/myphone
 
 https://github.com/JasonFerrara/jmtpfs
 

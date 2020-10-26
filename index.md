@@ -24,6 +24,7 @@
 - [windows](./windows.md)
 - [android](./android/index.md)
 - [graphics](./graphics/index.md)
+- [browsers](browsers/index.md)
 
 ## ToCheck
 https://jrnl.sh/installation/
@@ -31,3 +32,50 @@ https://jrnl.sh/installation/
 
 https://eu.lifx.com/
 WELCOME10EU
+
+## Cloud Storage
+Mega
+Google Drive
+Dropbox
+
+## File Transfer
+https://wetransfer.com/
+
+## Good Vpns
+Expres VPN
+https://vpn.mozilla.org/
+
+
+## Good Travel websites
+https://www.expertafrica.com/
+
+
+## User analysis
+https://statcounter.com/
+
+
+## Good Printers
+Cannon Pixma TS8350
+
+## Google services end
+https://killedbygoogle.com/
+http://gcemetery.co/
+
+
+## Social networks
+https://mewe.com/
+https://www.webtalk.co/o/home
+hello.com
+
+
+## Video Editors
+http://www.shotcut.org/
+
+## Photo Organizer
+Digikam.org
+Google Photos
+
+
+## Feed readers
+feedly.com
+

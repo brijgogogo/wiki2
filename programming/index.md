@@ -4,6 +4,10 @@ https://docs.microsoft.com/en-us/dotnet/api/system.dynamic.expandoobject?view=ne
 
 - [golang](./golang/index.md)
 - [perl](perl/index.md)
+- [Erlang](./erlang/index.md)
+
+## [Messaging](./messaging.md) (RabbitMQ)
+
 
 # UI Frameworks
 - [react.js](./react/index.md)
@@ -55,7 +59,6 @@ REST in Practice (O'Reilly)
 
 
 
-
 ## [Microservices](./Microservices/index.md)
 ## [programming_jargons](./programming_jargons.md)
 ## [architect_advices](./architect_advices.md)
@@ -71,3 +74,5 @@ Cassandra
 ## Health Check
 - Nagios
 
+## UML
+https://plantuml.com/
