@@ -46,6 +46,7 @@ Common tools used for composition
 - [gimp](./gimp/index.md)
 - Adobe InDesign (arranges content: wireframes, books)
 - Adobe XD (UI Rapid Prototyping tool)
+- [darktable](darktable.md)
 
 
 
@@ -63,3 +64,8 @@ Common tools used for composition
 - Shape is drawn mathematically, hence can be scaled up or down, without losing quality.
 - Usage: logo
 - Drawback: Level of details that can be easily achieved with Raster image is much more time consuming and difficult.
+
+## image resources
+https://rizonrice.github.io/resources#wallpapers
+unsplash.com
+https://openclipart.org

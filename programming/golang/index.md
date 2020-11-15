@@ -1,7 +1,8 @@
 # Go
 
-Created by Ken Thompson, Rob Pike, Robert Griesemer
+Created in 2007 by Ken Thompson, Rob Pike, Robert Griesemer (at Google)
 https://github.com/golang/go
+https://play.golang.org/
 
 - Strong, static type system
 - C-inspired systax
@@ -18,33 +19,56 @@ https://github.com/golang/go
 - cross-platform (Linux, OS X, Android, ...)
 - Backward compatibility
 
+- Go doesn't support overloading
 
-## installation
-sudo pacman -S go : install extra/go
-export GOPATH='/hom/vik/Docs'
+## [installation](./installation.md)
+## [go_cli ](./go_cli.md)
 
 
 ## Go Language
-- [variables](variables.md)
-- [strings](strings.md)
-- [go_modules](./go_modules.md)
+- [syntax](./syntax.md)
+- [compilation](./compilation.md)
+
 - [go_packages](go_packages.md)
-- [go_cli ](./go_cli.md)
+
+- [functions](functions.md)
+- [data_types](./data_types.md)
+- [variables](variables.md)
+
+- [errors_panics](errors_panics.md)
+
+- [loops](loops.md)
+
 - [pointers](pointers.md)
+
+- [arrays](arrays.md)
+- [slices](slices.md)
+- [maps](maps.md)
 - [structs](structs.md)
 - [embedded_types](embedded_types.md)
-- [arrays_slices](arrays_slices.md)
-- [maps](maps.md)
-- [loops](loops.md)
-- [functions](functions.md)
+- [type_definitions](type_definitions.md)
+
 - [methods](methods.md)
+
+- [encapsulation](encapsulation.md)
+
 - [interfaces](interfaces.md)
-- [errors_panics](errors_panics.md)
-- [readers](readers.md)
+
+
+- [math](math.md)
+
+- [go_modules](./go_modules.md)
 - [goroutines_gochannels](goroutines_gochannels.md)
 - [http](http.md)
 - [json](json.md)
 
+## input-output
+- [print_read_from_terminal](print_read_from_terminal.md)
+- [readers](readers.md)
+
+## date-time
+	var now time.Time = time.Now()
+	var year int = now.Year()
 
 
 
@@ -77,4 +101,4 @@ https://vimeo.com/53221558
 https://golang.org/doc/articles/wiki/
 https://golang.org/doc/codewalk/functions/
 https://blog.golang.org/
-
+Head First Go

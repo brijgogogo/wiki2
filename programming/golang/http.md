@@ -44,11 +44,15 @@ func ListenAndServe(addr string, handler Handler) error
 http.ListAndServe(":5000", nil)
 
 # http.MethodGet, MethodPost
+
+response, err = http.Get("http://golang.org")
+
+
 # http.StatusInternalServerError, StatusBadRequest, StatusCreated, StatusMethodNotAllowed
 
 
 
-= http.Request =
+## http.Request
 # r.Method
   - String
 # r.Header

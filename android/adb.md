@@ -6,6 +6,7 @@ pacman -S android-tools
 
 https://wiki.lineageos.org/devices/mido/install
 
+https://wiki.lineageos.org/adb_fastboot_guide.html#setting-up-adb
 
 adb devices
 adb push file.ext /sdcard/

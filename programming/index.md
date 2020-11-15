@@ -5,6 +5,7 @@ https://docs.microsoft.com/en-us/dotnet/api/system.dynamic.expandoobject?view=ne
 - [golang](./golang/index.md)
 - [perl](perl/index.md)
 - [Erlang](./erlang/index.md)
+- [js](js/index.md)
 
 ## [Messaging](./messaging.md) (RabbitMQ)
 
@@ -74,5 +75,8 @@ Cassandra
 ## Health Check
 - Nagios
 
+## [virtualization](virtualization.md)
+
+## [interview](interview)
 ## UML
 https://plantuml.com/

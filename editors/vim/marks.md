@@ -46,6 +46,10 @@ Mark names can be a-z/A-Z
 - mark of last position
   '0
 
+## special marks
+- '< and '> : visual marks
+- '{ and '} : paragraph marks
+- '(, ') : sentences marks
 
 
 ## vim-signature

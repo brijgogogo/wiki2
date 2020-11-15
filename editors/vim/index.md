@@ -17,6 +17,27 @@
 - [windows](./windows.md)
 - [tabs](./tabs.md)
 
+- [statusline](statusline.md)
+- [ctags](ctags.md)
+- [jump_list](jump_list.md)
+- [change_list](change_list.md)
+- [registers](registers.md)
+- [text_objects](text_objects.md)
+- [vim_settings](vim_settings.md)
+- [mappings](mappings.md)
+- [vim_regex](vim_regex.md)
+- [auto_completion](auto_completion.md)
+- [abbreviation](abbreviation.md)
+- [vimdiff](vimdiff.md)
+- [clipboard](clipboard.md)
+- [terminal_mode](terminal_mode.md)
+- [ex_commands](ex_commands.md)
+
+## Plugins
+- [vim_surround](vim_surround.md)
+- [vim_unimpaired](vim_unimpaired.md)
+- [emmet_vim](emmet_vim.md)
+
 ## File Exploring
 - [netrw](./netrw.md) and vim-vinegar
 
@@ -248,3 +269,146 @@ nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 
 " coc-explorer
 nnoremap <silent> <space>x  :<C-u>CocCommand explorer<CR>
+
+
+## error lists in vim
+1. location list
+  - :lnext, lprevious
+  locations are associated with a windows and each window can have a separate list
+2. quickfix
+  - :cnext, :cprevious, :copen, :cclose
+
+
+
+
+https://aonemd.github.io/blog/finding-things-in-vim
+
+
+
+
+* :echo mapleader
+
+* :set paste : sets up vim for pasting from another window
+
+
+* let allows us to set variables
+%% let mapleader=','
+
+* :w !sudo tee %
+Save the changes with sudo (required if file opened as read-only)
+
+* 1 + Ctrl + G : see full file path
+* :read !date : read output of a command
+* :!ls : execute command from vim
+
+
+
+
+:py print 2*2
+
+
+
+:messages
+:version
+:e
+
+* g + Ctrl + g
+see info of file: number of words, line, etc.
+
+bestofvim.com
+reddit.com/r/vim
+http://learnvimscriptthehardway.stevelosh.com/
+vimgolf.com
+
+
+* Ctrl+S : freezes vim (it is scroll-lock in Linux Termial), use Ctrl+Q to unfreeze
+* Ctrl+V u <FA unicode number >
+
+* :help defaults.vim
+check defaults
+* :filetype
+check filetype detection
+* vim --version
+
+jump to specific line number
+vim myfile.txt +28
+
+* :py3 print('hello')
+executes the specified command using a Python 3 interpreter
+
+
+- [vim_vs_neovim](vim_vs_neovim.md)
+
+- [quickfix](quickfix.md)
+
+
+see runtimepath values
+:help channel
+info on Vim's job control
+
+:help cmdline-special
+
+:!patch % break-things.diff
+apply a patch on current file
+
+
+
+
+## ex command
+ex, short of EXtended, is a line editor for Unix systems.
+Line editor: In computing, a line editor is a text editor in which each editing command applies to one or more lines of text designated by the user.
+ex was eventually given a full-screen visual interface (adding to its command line oriented operation), thereby becoming the vi text editor.
+"ex mode" is invoked by typing the : (colon).
+Core ex commands: search, replace
+(source: Wikipedia)
+
+
+## Repeat Substitutions
+g& will repeat the last substitution you did, but for the whole file, whatever file you’re in at the moment.
+
+:& will repeat the last substitution on the line you are on but you get to change the flags if you want. So you can decide now to make it global with :&g.
+
+:&& will repeat the last substitution on the line you are on with the flags you used for that substitution.
+https://til.hashrocket.com/vim
+
+# go to last insert place
+gi
+`^ : go to ^ mark
+
+# <C-R><C-A>: when in command mode puts the word under cursor there
+
+# ct_ : change till underscore
+# cf_ : change from current to underscore
+# ciw : change in word
+
+# @: to repeat last vim command mode command (after that you can do @@ to continue the call to command)
+
+
+
+## options
+use :set option? to check the value of an option,
+use :verbose set option? to also see where it was last set.
+
+## Sources
+https://statico.github.io/vim3.html
+http://colorswat.ch/vim
+http://vimcasts.org/episodes/packages/
+https://vimways.org/2018/the-power-of-diff/
+https://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language/
+https://www.blaenkdenum.com/posts/a-simpler-vim-statusline/
+https://github.com/romainl/idiomatic-vimrc
+
+## pending reads
+https://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language
+https://gist.github.com/nifl/1178878
+https://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118
+https://medium.com/usevim/stop-the-vim-configuration-madness-c825578bbf3e
+https://medium.com/@mkozlows/why-atom-cant-replace-vim-433852f4b4d1
+https://blog.carbonfive.com/2011/10/17/vim-text-objects-the-definitive-guide/
+http://docs.emmet.io/customization/snippets/
+
+## pending plugins
+https://github.com/mattn/webapi-vim
+
+
+

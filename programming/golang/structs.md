@@ -1,31 +1,99 @@
 # struct
-Collection of fields
+A struct/structure is a value that is constructed out of other values of many different types.
+Collection of fields.
+
+- declaring
+  var myStruct struct {
+    id int
+    name string
+  }
+  Each field is set to zero value for its type.
+
+- assign & access value using dot operator
+  myStruct.id = 1
+  fmt.Println(myStruct.id)
 
 
-type Vertex struct {
-  X int
-  Y int
-}
+## [type_definitions](type_definitions.md)
 
-func main() {
-  fmt.Println(Vertex{1, 2})
-}
 
-## Struct literals
-var (
-  v1 = Vertex{1, 2}
-  v2 = Vertex{X:1}
-  v3 = Vertex{}
-  p = &Vertex{1, 2}
-)
+## pointers
+var v myStructType
+v.id = 1
+var pointer *myStructType = &v
+fmt.Println(*pointer.id) // compile error, Go thinks id must contain a pointer
+fmt.Println((*pointer).id) // prints id
+fmt.Println(pointer.id) // prints id (provided to avoid writing (*pointer) all the time)
+pointer.id = 2
 
-#
-v1.X   // behind the scenes, de-referencing happens for us then field is accessed  like (*v1).X
 
-## Accessing through pointer
-v := Vertext{1,2}
-p := &v
-p.X = 20
+## modify struct using a function
+Go is a "pass-by-value" language, functions receive a copy of the struct.
+Use pointers to modify struct in functions.
+
+  func setDefaultId(t *myType) {
+    t.id = 1
+  }
+
+  var t1 myType
+  setDefaultId(&t1)
+
+## Usage with functions
+Its often a good idea to pass functions a pointer to a struc, rather than the struct itself otherwsie a copy is created which consumes more memory.
+  func printInfo(t *myStructType) {
+    t.id = 1
+  }
+
+  func setDefaults() *myStructType {
+    var t myStructType
+    t.id = 1
+    return &t
+  }
+
+
+## Export
+Struct name must be capitalized to be used outside the package.
+Struct field names must be capitalized to be exported.
+
+
+## Struct literal
+  myStruct := myStructType{id: 1, name: "a"}
+
+
+## Struct can contain other structs as fields
+  type address struct {
+    city string
+    state string
+  }
+  type user struct {
+    id int
+    homeAddress address
+  }
+
+  u1 := user{id: 1}
+  u1.homeAddress.city = "Delhi"
+
+
+## Anonymous struct fields
+Anonymous fields: struct fields that have no name of their own, just a type.
+  type user struct {
+    id int
+    address
+  }
+With anonymous field, you can use the field's type name as if it were the name of the field.
+  u1 := user{id: 1}
+  u1.address.city = "Delhi"
+
+## Embedding structs
+An inner struct that is stored within an outer struct using an anonymous field is said to be embedded within the outer struct.
+Fields for an embedded struct are promoted to the outer struct.
+
+  u1 := user{id: 1}
+  u1.city = "Delhi"
+
+
+
+
 
 ## Get Pointer
 v := new(Vertex)  // initializes with zero value, gives a pointer

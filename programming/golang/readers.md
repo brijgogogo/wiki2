@@ -27,3 +27,22 @@ func main() {
 	}
 }
 
+
+
+## Read file
+  file, err = os.Open("myfile.txt") // returns pointer to os.File
+  if err != nil {
+    log.Fatal(err)
+  }
+  scanner := bufio.NewScanner(file)
+  for scanner.Scan() { // reads a line from the file
+    fmt.Println(scanner.Text()) // print the line
+  }
+  err = file.Close()
+  if err != nil {
+    log.Fatal(err)
+  }
+  if scanner.Err() != nil {
+    log.Fatal(scanner.Err())
+  }
+

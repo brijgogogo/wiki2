@@ -1,12 +1,36 @@
 # Pointers
 
-A pointer holds memory address of a value.
-A * operator denotes the pointer's underlying value.
-The & operator generates a pointer to its operand.
+& (ampersand) : "address of" operator - gets the address of a variable
 
-var p  *int       // pointer to a variable of type int
-i := 42
-p = &i            // assign memory address of the variable i to pointer p
-*p = 123          // De-reference pointer p to get i and assign a value to it
-fmt.Println(*p)   // Print the value of i by dereferencing p
+  amt := 5
+  fmt.Println(amt)
+  fmt.Println(&amt)
 
+Values that represent the address of a variable are known pointers.
+
+## Pointer type
+symbol * (asterisk) followed by the type of the variable the pointer points to.
+
+  var amt int
+  fmt.Println(reflect.Typeof(&amt)) // *int
+
+- Declaring variables to hold pointers
+  var num int = 5
+  var numPointer *int
+  numPointer = &num
+  fmt.Println(numPointer) // prints address
+  fmt.Println(*numPointer) // prints 5
+  *numPointer = 8
+  fmt.Println(num) // prints 8
+
+  *numPointer is read as "value at numPointer"
+
+
+- pointers with functions
+
+  func show(boolPointer *bool) *float64 {
+    fmt.Println(*boolPointer)
+    *boolPointer = true
+    var myFloat = 33.5
+    return &myFloat
+  }

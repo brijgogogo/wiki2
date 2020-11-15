@@ -1,12 +1,17 @@
 # Go CLI
 
-- go version
+- display current Go version
+  go version
 
-- Run
-  go run file.go
+- Reformats source files using Go standard formatting
+  go fmt hello.go
 
-- Build
+- Compile source code files into binary files
   go build file.go
+  (binary file is name after file name)
+
+- compiles and runs a program, without saving an executable file
+  go run file.go
 
 - List go environment variables
   go env
@@ -34,3 +39,12 @@
   go help modules
   godoc fmt Println
 
+- go install <dirName>
+saves executable in bin directory of Go workspace directory. Go tool will look up the <dirName> within the src directory of Go workspace directory.
+(executable is named after the directory)
+
+- go get <packagename/url>
+
+- get documentation
+go doc strconv
+go doc strconv ParseFloat

@@ -1,6 +1,5 @@
 # loops
 
-#
 var i int
 for i < 5 {
   println(i)
