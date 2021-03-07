@@ -1,5 +1,15 @@
 # HTML Elements
 
+## Attributes
+Provide additional information for elements.
+Are defined as part of the start tag, and have a name and a value.
+Not all attributes are applied with a value, just adding them to an element tells the browser that you want a certain kind of behavior.
+
+```html
+  <link href="filePath" rel="stylesheet" />
+  <input required />
+```
+
 ## Meta tag
 Meta element describes a characteristics of a web page.
 It is not used as a pair of opening and closing tags( stand-alone self-contained tag (void element))
@@ -27,7 +37,7 @@ name:
 
 ## Line Break
 <br>
-(void element)
+(void or self-closing elements: elements that are not permitted to contain content, e.g. <input />)
 
 
 ## Horizontal Rule

@@ -33,8 +33,6 @@ print xorg events
 used to identify things like button numbers in mouse, etc
 
 
-## sources
-linux_graphics
 
 ## Desktop Environment (DE) vs Windows Manager (WM)
 DE: full featured: window managger, file explorer

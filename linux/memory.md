@@ -48,7 +48,7 @@ Four Processors:  1.0 = 25%  , 2.0 = 50%
 
 
 
-== killing, disabling startup of processes ==
+## killing, disabling startup of processes
 * yes > /dev/null &
 run 3 instances of above command to simulate killing it later
 * kill pid

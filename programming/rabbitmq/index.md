@@ -1,21 +1,18 @@
 # RabbitMQ
 - Released in 2007, open source message broker written in Erlang by Pivotal Software
 - Lightweight: requires less than 40 MB of RAM to run the core RabbitMQ applicaiton along with plugins, such as Management UI.
-- pluging system allowing third party plugins like plugin to store messages directly into databases.
+- plugin system allowing third party plugins like plugin to store messages directly into databases.
 - RabbitMQ clusters use the native Erlang inter-process communication mechanism in the VM for cross-node communication, sharing state information and allowing for messages to be published and consumed across the entire cluster.
 - Protocol neutral, implemented specifications: AMQP, MQTT, Stomp, XMPP
 - Supports cross-data center distribution of data (from one RabbitMQ to remote RabbitMQ) (RabbitMQ federation plugin)
 
-## AMQP (Advanced Message Queuing Protocol) Specifictaion
-- www.amqp.org
-- comprises two documents:
-  1. top-level document describes both the AMQP model and the AMQ protocol
-  2. more detailed document provides varying levels of information about every class, method, property, field.
+## AMQP (Advanced Message Queuing Protocol) Specifictaion (www.amqp.org)
 - Binary protocol
 
-## AMQ Model
+AMQP specification defines network protocol and server-side services and behaviors.
+It defines following components in broker software that define the routing behavior of messages:
 - Exchange: receives messages sent to RabbitMQ, routes them to queues by examining data attributes passed along with the message or that are contained within the message's properties.
-- Queue: a data structure on disk or in memory that stores messages
+- Queue: stores received messages on disk or in memory prior to delivering them in FIRO order
 - Binding (or binding key): a rule that tells the exchange which queue the messages should be stored in
 
 ## routing-key, binding-key

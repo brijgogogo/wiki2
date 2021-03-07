@@ -6,6 +6,7 @@
 
 ## screenshot
 - [scrot](./scrot.md)
+- flameshot
 
 ## conversion / manipulation
 - [imagemagick](./imagemagick.md)

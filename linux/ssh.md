@@ -23,7 +23,7 @@ examples:
 
 ## ssh servers
 - [OpenSSH](./openssh.md)
-- Tectia (SSH Client and Server for Linux, Windiows, Unix)
+- [Tectia](Tectia) (SSH Client and Server for Linux, Windiows, Unix)
 
 ## ssh-agent
 The ssh-agent is a helper program that keeps track of user's identity keys and their passphrases. The agent can then use the keys to log into other servers without having the user type in a password or passphrase again. This implements a form of single sign-on (SSO).

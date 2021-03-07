@@ -10,7 +10,7 @@ set your default shell (log out and log in needed)
 - [z_shell](./z_shell/index.md)
 - [fish_shell](./fish_shell/index.md)
 
-bash vs zsh
+## bash vs zsh
 - bash is more popular/use/available than zsh
 - zsh offers far superior auto-completion features for file paths, and popular applications, such as git.
 -

@@ -16,3 +16,7 @@ adb logcat
 adb install file.apk
 adb reboot bootloader
 
+
+## No permissions
+sudo adb kill-server
+sudo adb start-server

@@ -6,3 +6,6 @@ cp /etc/X11/xinit/xinitrc ~/.xinitrc
 replace "twm &" with "exec dwm"
 
 $ startx
+
+
+Additionally install xorg-apps or xorg group.

@@ -11,6 +11,7 @@
 - [calibre](./calibre.md)
 - [zathura](./zathura.md)
 
+
 ## search
 - [fzf](./fzf.md)
 - [urlscan](./urlscan.md)
@@ -41,3 +42,6 @@ print a sequence of numbers
 
 # bulk file/dir rename
 - vidir
+
+
+- [diff](diff)

@@ -10,7 +10,7 @@ A terminal emulator allows a user to interact with a shell from within Xorg.
 - [urxvt](./urxvt.md)
 - [simple-terminal st](./st.md)
 - termite
-- Quake
+- [Quake](Quake) (slide down terminals)
 terminals that slide down from the top of the screen
   - Yakuake for KDE
   - Guake for GTK+

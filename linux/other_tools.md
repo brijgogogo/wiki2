@@ -1,6 +1,6 @@
 # Other Tools
 
-- rofi
+- [rofi](rofi)
 - ldd /usr/bin/dotnet : see libraries a program is linked to (dependency)
 - [diff](./diff.md)
 - cheat.sh

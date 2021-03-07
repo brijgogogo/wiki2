@@ -1,7 +1,6 @@
 # temp
 
 - Shellpic : view picturesin console
--
 gpicview
 
 finch
@@ -24,6 +23,11 @@ https://dominicm.com/force-hard-drives-to-sleep-on-arch-linux/
 https://dominicm.com/install-video-drivers-on-arch-linux/
 https://github.com/LukeSmithxyz/voidrice
 
+
+neofetch
+xchm
+xarchiver
+gotop
 
 
 

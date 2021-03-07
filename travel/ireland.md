@@ -17,7 +17,7 @@ http://www.citizensinformation.ie/en/employment/migrant_workers/employment_permi
 
 * [immigration_permit](immigration_permit.md)
 * [foreign_exchange](foreign_exchange.md)
-* shopping
+* [shopping](shopping)
 
 River Liffey divides Dublin into North and South.
 Dublin has postal districts numbered 1 to 24.

@@ -15,6 +15,9 @@
 - tartube: youtube video download
 
 
+* hardinfo (https://github.com/lpereira/hardinfo)
+
+
 ## live stream
 - acestream-launcher
 https://github.com/jonian/acestream-launcher

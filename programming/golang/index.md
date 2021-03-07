@@ -35,7 +35,7 @@ https://play.golang.org/
 - [data_types](./data_types.md)
 - [variables](variables.md)
 
-- [errors_panics](errors_panics.md)
+- [errors_panics](errors_panics.md) (defer)
 
 - [loops](loops.md)
 
@@ -62,9 +62,30 @@ https://play.golang.org/
 - [http](http.md)
 - [json](json.md)
 
+
+## if
+
+if u1.ID == u2.ID {
+
+}
+
+
+u1.ID != u2.ID
+
+
+if a == b {
+} else if b == c {
+} else {
+}
+
+
+
+
+
 ## input-output
 - [print_read_from_terminal](print_read_from_terminal.md)
 - [readers](readers.md)
+- [file_io](file_io.md)
 
 ## date-time
 	var now time.Time = time.Now()

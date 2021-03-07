@@ -5,14 +5,14 @@ A JavaScript module is a piece of reusable code that can easily be incorporated 
 * [IIFE](IIFE.md)
 * [Revealing_Module_Pattern](Revealing_Module_Pattern.md)
 
-== Module formats ==
+## Module formats
 Syntax used to define a module
 
 Non-native formats (support not built into Javascript language):
 - [AMD](AMD.md) : Asynchronous Module Definition
 - [CommonJS](CommonJS.md)
 - [UMD](UMD.md)
-- System.register
+- [System register](System.register.md)
 
 Native format:
 - [ES2015](ES2015.md) (ES6 Modules)
