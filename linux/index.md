@@ -24,6 +24,7 @@
 - [command_substitution](command_substitution)
 - [pearls](pearls)
 - [commands_and_functions](commands_and_functions)
+- [printer](printer.md)
 
 
 ## Tools
@@ -48,6 +49,7 @@ grep ==> Ripgrep (Rust)
 ls ==> exa
 find ==> fd
 hexyl : command-line hex viewer
+tldr
 
 ## Prompts
 - [shell_prompts](shell_prompts)

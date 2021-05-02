@@ -17,10 +17,11 @@ const [, , name3] = ["name1", "name2", "name3"}
 # spread operator
 
 - combine contents of arrays
-
+```javascript
 const arr1 = ["a", "b"];
 const arr2 = ["c", "d"];'
 const arr = [...arr1, ...arr2]
+```
 
 
 - get remaining items (destructuring)

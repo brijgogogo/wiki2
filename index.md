@@ -25,6 +25,7 @@
 - [my_tools](my_tools/index.md)
 - [product_research](product_research/index.md)
 - [misc](misc/index.md)
+- [blockchain](blockchain/index.md)
 
 ## ToCheck
 https://jrnl.sh/installation/
@@ -82,4 +83,25 @@ feedly.com
 
 ## Mouse configuration
 https://github.com/libratbag/piper
+
+## [Buying_Guides](./buying_guides/index.md)
+
+
+## XMonad shortcuts
+M-S-Enter: terminal
+M-Space: switch layouts (tall, wide, full modes)
+M-j/k: move among windows
+M-h/l: inc/dec pane width/height (depends on layout)
+M-,/.: inc/dec number windows in master pane
+M-Enter: moves the focused window to master pane
+M-S-j/k: moves windows to next/prev
+M-S-q: exit
+M-q: restart
+M-S-c: kill window
+M + drag: floats a window
+M-t: unfloats a window
+M + right click: resize floating window
+M-p: dmenu
+M-1-9: workspaces
+M-S-1-2: move window to workspace
 

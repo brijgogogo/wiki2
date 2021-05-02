@@ -20,3 +20,11 @@ adb reboot bootloader
 ## No permissions
 sudo adb kill-server
 sudo adb start-server
+
+
+## Debloater
+https://gitlab.com/W1nst0n/universal-android-debloater
+
+
+
+https://bugatsinho.github.io/repo

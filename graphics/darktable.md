@@ -1,4 +1,17 @@
 # darktable
+- Non-destructive editing: original image is never changed
+
+## Layout
+lighttable: photos store/organization
+darkroom: photos editing/retouching
+map: places where photos was taken
+slideshow
+tethering: if hooking camera to computer
+
+
+## Lighttable
+- import
+
 Film roll: Whenever you import images from disk, the images are organized in a film roll whose name is derived from the name of the disk folder
 
 Collection: A set of images which is defined by a specific combination of selection criteria is called a collection. The most basic kind of collection is a film roll

@@ -2,6 +2,14 @@
 
 - [anne_pro_2](anne_pro_2.md)
 
+- pencil (GUI prototyping)
+- https://www.designer.io/en/ (Vector Graphics designer)
+
+## Photography workflow
+- Rapid Photo Downloader: for loading images into computer
+- Digikam: for tagging, rating images
+- Darktable: RAW conversion, detailed image processing
+- GIPM: printing
 
 newsboat
 nnn

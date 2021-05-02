@@ -17,6 +17,7 @@ list available fonts
 pacman -S <font-package>
 
 ## good font packages
+xorg-fonts-misc
 ttf-dejavu
 ttf-droid
 ttf-liberation
@@ -32,6 +33,8 @@ ttf-monaco (AUR)
 ttf-monofur
 consolas-font (AUR)
 otf-font-awesome (AUR)
+ttf-jetbrains-mono (for programming)
+nerd-fonts-complete (includes font awesome,etc)
 
 ## sources
 https://wiki.archlinux.org/index.php/Fonts

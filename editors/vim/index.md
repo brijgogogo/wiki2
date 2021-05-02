@@ -11,7 +11,7 @@
 - [sessions](./sessions.md)
 - [git](./git.md)
 - [marks](./marks.md)
-- [folding](./folding.md)
+- [folding](./folding.mdj
 
 - [buffers](./buffers.md) and swaps
 - [windows](./windows.md)
@@ -37,6 +37,7 @@
 - [vim_surround](vim_surround.md)
 - [vim_unimpaired](vim_unimpaired.md)
 - [emmet_vim](emmet_vim.md)
+- vim-markdown
 
 ## File Exploring
 - [netrw](./netrw.md) and vim-vinegar

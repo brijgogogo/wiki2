@@ -34,6 +34,8 @@
 - [php](php/index.md)
 - [kotlin](kotlin/index.md)
 - [ruby](ruby/index.md)
+- [c](c/index.md)
+- [haskell](haskell/index.md)
 
 ## Messaging
 - [overview](overview)
