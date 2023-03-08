@@ -25,6 +25,10 @@ location *.desktop files
 - magnet url
   x-scheme-handler/magnet
 
+## Useful defaults
+xdg-mime default org.pwmt.zathura.desktop application/pdf
+
+## read 
 
 ## sources
 https://wiki.archlinux.org/index.php/Desktop_entries

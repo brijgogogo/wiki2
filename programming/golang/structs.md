@@ -1,21 +1,57 @@
 # struct
-A struct/structure is a value that is constructed out of other values of many different types.
-Collection of fields.
+used when you have related data that you want to group together
+```go
+// Go doesn't have classes
 
-- declaring
-  var myStruct struct {
-    id int
-    name string
-  }
-  Each field is set to zero value for its type.
+// declare struct
+type structName struct {
+  id int      // field
+  name string
+}
+// struct can be defined inside/outside of a function.
 
-- assign & access value using dot operator
-  myStruct.id = 1
-  fmt.Println(myStruct.id)
+// define variables of struct type
+var s structName  // zero value struct has every field set to the field's zero value
+
+s := structName{} // struct literal
+
+// struct literal as comma-separated list of values for the fields.
+// value for every field must be specified in the order they were declared.
+s := structName{1, "me"}
+
+// struct literal specifying values using field names. You can leave out keys and use any order.
+// Fields not specified are set to its zero value.
+s:= structName{
+  name: "Brij",
+  id: 1,
+}
+
+// assign & access value using dot operator
+myStruct.id = 1
+fmt.Println(myStruct.id)
+
+// anonymous structs
+var s struct {
+  id int
+  name string
+}
+s.id = 5
+
+// anonymous structs
+s := struct {
+  id int
+  name string
+}{
+  id: 5,
+  name: "Brij",
+}
+
+// structs composed entirely of comparable types are comparable.
+
+// struct type can be converted to another if the fields of both structs have the same names, order, and types.
 
 
-## [type_definitions](type_definitions.md)
-
+```
 
 ## pointers
 var v myStructType
@@ -141,7 +177,7 @@ v, ok := f.Tag.Lookup("one") // ok == false
 v, ok := f.Tag.Lookup("one") // 1
 
 
-== sources ==
+## sources
 https://medium.com/golangspec/tags-in-golang-3e5db0b8ef3e
 
 

@@ -37,7 +37,7 @@ print a sequence of numbers
 # clipboard
 - [xclip](./xclip.md)
 
-# pdf
+# [pdf](pdf.md)
 - [pds_tools](./pds_tools.md)
 
 # bulk file/dir rename

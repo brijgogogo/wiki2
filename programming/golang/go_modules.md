@@ -1,15 +1,22 @@
-# Go Modules
-History: https://research.swtch.com/vgo-intro
+## Repositories, Modules, Packages
+- Repository is a place in a version control system where the source code for a project is stored.
+- A module is the root of a Go library or application, stored in a repository.
+- Modules consist of one or more packages, which give module organization and structure.
 
-- A module is made up of one or more packages.
-- Modules are configured via go.mod file.
-- Modules are Version controlled (strict semantic versioning)
-- Dependent libraries are kept in cache
-- Integrity of received modules is checked via checksums
-
+## Module
+To use code from packages outside of the standard libray, we need to make sure that we have declared that our project is a module. Every module has a globally unique identifier. In Go, we usually use the path to the module repository, e.g. github.com/userName/myGoModule.
+If Go source code contains `go.mod` file in its root directory, it becomes a module. `go mod` command can be used to manage the modules.
+```bash
+# create go.mod
+go mod init <module_path>
+# module path should be globally unique
+# module path is case-sensitive (convention: lower case)
+# go.mod file includes module declaration, minimum compatible version of Go, dependent modules with minimum version required for each one (require section).
+# go.mod optionally contains replace section (to override locations of dependent module) and exclude section (to prevent specific versions of module from being used).
+```
 
 ## Sample go.mod
-
+```gomod
 module github.com/brij/gomodules
 go 1.12
 require (
@@ -20,14 +27,23 @@ require (
 // patching the way routing is done
 replace github.com/gorilla/mux => ../mymods/github.com/vansimke/mux
 exclude github.com/gorilla/rpc v1.1.0
-
-**Description**
+```
+- **Description**
 First line is go module identifier.
 Next is go version used to build the module.
 The "require" section lists the dependencies in our application.
 After require section we can have more lines which modify how are imports in require are managed. For example "replace" redirects a package to a package in our file system. The "exclude" tells to skip over a specific version of a library.
-
 The "indirect" after a dependency indicates that the module is referred but not used in our project.
+
+
+# Go Modules
+History: https://research.swtch.com/vgo-intro
+
+- A module is made up of one or more packages.
+- Modules are configured via go.mod file.
+- Modules are Version controlled (strict semantic versioning)
+- Dependent libraries are kept in cache
+- Integrity of received modules is checked via checksums
 
 
 ## Commands

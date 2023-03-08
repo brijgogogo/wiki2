@@ -1,6 +1,10 @@
 # zathura
 Document viewer
 
+## read docx files in Zathura
+(yay zaread-git)
+zaread /path/to/document.docx
+
 ## installation
 - pacman -S zathura
 
@@ -14,7 +18,8 @@ Supports PDF, ePub, OpenXPS
 - a : page-fit
 - s: fit width
 - r: rotate
-- d: side-by-side
+- d: toggle dual page view
+- a: adjust window in best-fit or width mode
 - f: highlight links
 - +/ : zoom out / in
 - Tab: index mode

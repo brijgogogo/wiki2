@@ -9,6 +9,7 @@ SD Maid - System Cleaning Tool
 
 
 https://wiki.lineageos.org/adb_fastboot_guide.html
+https://wiki.lineageos.org/devices/enchilada/install
 https://forums.oneplus.com/threads/q-a-the-ultimate-oneplus-6-guide-solutions-e-t-c.815568/
 
 # Install TWRP

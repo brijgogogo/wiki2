@@ -54,6 +54,8 @@ More specifically, C# supports `static typing`, meaning that the language enforc
 - [partials](partials.md)
 - [pragma_directives](pragma_directives.md)
 
+- [linq](linq.md)
+
 ## books
 C# 7.0 in a Nutshell
 

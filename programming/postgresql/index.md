@@ -8,6 +8,8 @@ $ sudo -iu postgres
 
 Initialize database cluster:
 $ initdb --locale=en_IN.UTF-8 -E UTF8 -D /var/lib/postgres/data
+  initdb: warning: enabling "trust" authentication for local connections
+  You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.
 
 Start/enable service
 $ systemctl start/enable postgresql.service
@@ -54,10 +56,10 @@ https://www.pgadmin.org/download/pgadmin-4-python-wheel/
 
 python ~/pgadmin4/lib/python3.7/site-packages/pgadmin4/pgAdmin4.py
 
-= REST API =
+## REST API 
 http://postgrest.org/en/v6.0/
 
-= Extensions =
+## Extensions 
 PostgreSQL is extensible. Extensions loaded into the database can function just like features that are built-in.
 
 SELECT * FROM pg_available_extensions;
@@ -69,18 +71,18 @@ $ \df
 
 SELECT uuid_generate_v4();
 
-== Export CSV ==
+## Export CSV 
 $ \copy (SELECT * FROM <tableName>) TO '/path/to/file.csv' DELIMITER ',' CSV HEADER;
 
 
-= Backup/Restores =
+## Backup/Restores 
 pg_restore, pg_dump
 
 $ pg_dump -U postgres --clean --password --format t mtdb > ./backup.tar
 
 
 
-= sources =
+## sources 
 https://www.postgresql.org/docs/
 
 

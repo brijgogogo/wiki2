@@ -1,5 +1,8 @@
 # qutebrowser
 
+:help
+for config file location visit qute://version
+
 https://qutebrowser.org/img/cheatsheet-big.png
 
 * hjkl for movement
@@ -13,12 +16,16 @@ https://qutebrowser.org/img/cheatsheet-big.png
 
 ## Url Manipulation
 * go to edit current url
-* gO : oepn based on current url in new tab
+* gO : open based on current url in new tab
 * wo (open in new window)
 * yy : copy url
 * gu : go up in url
 * pp : open url from clipboard (Pp for new tab, wp in new window)
 * ;y : hint, yank
+
+## History
+* H (go back in history), L (go forward)
+* :history
 
 ## Page Navigation
 [[  : click previous link on page
@@ -42,12 +49,9 @@ c-b : page up
 c-d : half page down
 c-u ; half page up
 
-## History
-* H (go back in history), L (go forward)
-* :history
 
 ## Search / copy Zoom
-* / (search text), n, N (to gor forward / backward)
+* / (search text), n, N (forward / backward)
 * - (zoom out), + (zoom in), = (reset zoom)
 * v to enter caret mode (search test, then use movement keys to select text)
 
@@ -100,3 +104,6 @@ Bookmarks will always use the title of the website as their name, but with quick
 For example, if you bookmark multiple food recipe websites and use :open, you have to type the title or address of the website.
 When using quickmark, you can give them all names, like foodrecipes1, foodrecipes2 and so on. When you type :open foodrecipes, you will see a list of all the food recipe sites, without having to remember the exact website title or address.
 
+## Settings
+- See all key bindings
+  :bind

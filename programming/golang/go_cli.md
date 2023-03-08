@@ -1,17 +1,21 @@
 # Go CLI
 
 - display current Go version
-  go version
+  $ go version
 
 - Reformats source files using Go standard formatting
-  go fmt hello.go
+  $ go fmt hello.go
 
 - Compile source code files into binary files
-  go build file.go
+  $ go build file.go
   (binary file is name after file name)
+  $ go build -o /path/to/output file.go
+
+
 
 - compiles and runs a program, without saving an executable file
   go run file.go
+Binary is built in a temporary directory and executed from there and gets deleted after your program finishes.
 
 - List go environment variables
   go env

@@ -21,3 +21,5 @@ Within documentation:
 Parse the documentation files (builds indexes of anchors, and writes them in a file called tags)
 :helptags
 
+## Sources
+https://www.youtube.com/watch?v=ZTCzWRqR_us

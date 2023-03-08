@@ -43,6 +43,8 @@ paccache -ruk0
 ## Rolling Back to an Older Version of a Package
 pacman -U /var/cache/pacman/pkg/name-version.pkg.tar.gz
 
+## Find orphaned files by packages
+pacman -S lostfiles
 
 ## sources
 https://wiki.archlinux.org/index.php/System_maintenance

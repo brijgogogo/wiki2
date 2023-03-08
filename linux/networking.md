@@ -30,3 +30,9 @@ list processes sending and receiving network data along with source and dest
 - bind-tools package
 dig: domain information groper
 - tool for querying DNS name serversnew
+
+- [pfsense](./pfsense/index.md)
+
+## map local ip to machine name
+- install nmap
+- sudo nmap -sn 10.27.27.1

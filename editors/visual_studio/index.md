@@ -2,12 +2,20 @@
 
 
 ## VS Extensions
-* VSColorOutput
+* vsvim
+* Relative Number
+* NerdX Solution Explorer
+* Configure Await enforcer
+* Add Existing Projects
+* Output Enhancer or VSColorOutput
+* Add New File
+* CommentPlus
 * Hide Main Menu, Title Bar, and Tabs
 * Add New File
 * Project File Tols
 * Build Vision
 * Learn the shortcut
+* T4Editor
 
 ## VS Features
 * Edit > Go To > Go To All

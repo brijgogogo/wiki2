@@ -33,6 +33,7 @@
 - [terminal_mode](terminal_mode.md)
 - [ex_commands](ex_commands.md)
 
+
 ## Plugins
 - [vim_surround](vim_surround.md)
 - [vim_unimpaired](vim_unimpaired.md)
@@ -363,6 +364,36 @@ ex was eventually given a full-screen visual interface (adding to its command li
 Core ex commands: search, replace
 (source: Wikipedia)
 
+## Diagraphs
+:dig
+In insert mode, press <Ctrl-K> followed by two-character lookup code:
+=e: EURO €
+Eu: EURO €
+Pd: Pound £
+?2: approximately equal ≈
+oo: bullet •
+Rg: ®
+Co: ©
+-:: ÷
++-: ±
+D*: Δ
+SU: ☼
+0U: ☺
+fi: ﬁ
+OK: ✓
+05: ゜
+M8: ♪
+M2: ♫
+UD: ↕
+00: ∞
+
+
+
+
+
+
+##  Shortcuts
+C-w-o  : close all other
 
 ## Repeat Substitutions
 g& will repeat the last substitution you did, but for the whole file, whatever file you’re in at the moment.
@@ -413,3 +444,11 @@ https://github.com/mattn/webapi-vim
 
 
 
+## Parentheses
+- ( to jump back a sentence
+- ) to jump forward a sentence
+- va( or vab
+- di( or dib
+- {action}{count}ib: eg. v2ab, v3ib : to target multiple levels of nested parentheses
+Vim Un-Alphabet 13: Parentheses - https://www.youtube.com/watch?v=pt1Cq5QcgEQ
+- :help (

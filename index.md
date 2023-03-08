@@ -1,6 +1,7 @@
-# my wiki
+# My Wiki
 
 > the more i learn, the more i discover how much i don't know - the known unknown
+> Every technology choice is a trade off.
 
 ## todo
 - Learn immutability in C#
@@ -15,6 +16,7 @@
 - [linux](./linux/index.md)
 - [editors](editors/index.md)
 - [programming](./programming/index.md)
+- [home_assistant](./home_assistant/index.md)
 - [windows](./windows.md)
 - [android](./android/index.md)
 - [graphics](./graphics/index.md)
@@ -104,4 +106,69 @@ M + right click: resize floating window
 M-p: dmenu
 M-1-9: workspaces
 M-S-1-2: move window to workspace
+
+## SSDs
+SSDs can either use NVMe or SATA as the method for communicating with the rest of a PC. SATA is slower than NVMe.
+M.2 is a type of form factor. You can find both NVMe M.2 and SATA M.2 SSDs.
+NVMe transfer rates depend first on which generatioin of PCIe connector your NVMe drive uses (PCIe 3.0 @ 3500MB per second, 4.0 @ 7500MB per second)then on the model.
+SATA SSDs typically hit upto 500MB per second.
+SATA HDDs tops out at around 160MB per second.
+SATA SSDs can take the form of either 2.5-inch drives or M.2 drives.
+
+## SWIFT
+- Society for Worldwide Interbank Financial Telecommunications.
+- Way to handle cross-border payments
+- Based in Belgium, formed in 1973
+- averages 40 million messages per day (orders, payment confirmations, FX exchanges, trades, etc)
+- doesn't actually do any transfer or holding of funds, but part of communication infrastructure
+
+
+
+
+
+
+Your Life is Your Message
+Eat Sleep Hustle Repeat
+
+
+
+https://chicfetti.com/downloads/dinosaur-party-invitation/
+https://chicfetti.com/file-category/free-party-printables/
+
+
+
+
+
+## Aviva
+2021: 230EUR
+2022: 255EUR
+
+
+
+## Dubai Trip
+- 23 Sept, Fri
+  - Dubai Museum of the future
+    - 2:30
+  - Evening: Kite Beach
+    - 5 pm
+  - Dubai Frame (till 9PM)
+    - 7 PM?
+  - Dubai Garden Glow (till 10PM)
+    - 8 30?
+- 24 Sept, Sat
+  - 11:00: Airbnb checkout
+  - 15:25: flight
+  - 20:20: flight @ Delhi
+- 8 Oct, Sat
+  - 21:50: flight to Dublin
+  - 23:55: flight @ Dubai
+  - Lounge
+- 9 Oct, Sun
+  - 7:15: flight
+  - 12:10: flight @ Dublin
+
+
+
+Prachi
+23,Ap#14@del%1111
 

@@ -1,6 +1,44 @@
-# syntax
+# syntax / format / linting / vetting
 
-Semicolons are optional to separate statements in Go
+## Format
+Go has a standard format. Go does not provide flexibility on how code is laid out, to make it a great deal easier to write tools that manipulate source code (compiler, code generation, etc.).
+
+- use tabs to indent.
+- opening brace has to be in the same line as the declaration or command that begins the block.
+
+`go fmt` reformats your code to match the standard format.
+Advanced version of go fmt is `gomports`, it works on import statements, orders alphabetically, removes unused ones, attempts to guess any unspecified imports.
+
+  go install golang.org/x/tools/cmd/goimport@latest
+  goimports -l -w .
+  -l: prints the files with incorrect formatting.
+  -w: modifies the files in-place.
+  .: everyting in the current directory and subdirectories are to be scanned.
+
+## Linting
+`golint`: tries to ensure your code follows style guidelines. It gives suggestions on:
+- variable names
+- formatting error messages
+- place comments on public methods, types
+
+  go install golang.org/x/lint/golint@latest
+  golint ./...
+  (runs golint on entire project)
+
+## Vetting
+This checks for errors which is syntactically valid, but which you didn't meant to do. This includes things like
+- passing wrong number of parameters to formatting methods
+- assigning values to variables that are never used
+
+  go vet ./...
+
+## Running multiple tools
+Running so many tools on your code may slow it down as every tool has to scan the code. You can run multiple tools together using `golangci-lint`. It combines golint, go vet and other tools.
+
+  golangci-lint run
+
+You can configure the tool using .golangci.yml
+https://golangci-lint.run/usage/configuration/
 
 
 ## Name rules (variables, functions, types)

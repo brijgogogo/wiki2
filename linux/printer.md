@@ -11,9 +11,12 @@ PPD file: Postscript Printer Description file
 - systemctl start cups.service
 
 Cannon Driver: cnijfilter2
+- paru cnijfilter2
 
+Reboot after installing cups and driver. Then add printer from cups web interface.
 
 GUI
 1. cups web interface is available at http://localhost:631/
-2. pacman -S system-config-printer
+  (admin credentials: root username and pwd)
+2. pacman -S system-config-printer (not needed)
 

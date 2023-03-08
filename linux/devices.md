@@ -9,7 +9,7 @@ https://wiki.archlinux.org/index.php/Persistent_block_device_naming
 - lsblk -f
 view persistent schemes
 - df -h
-show details of mounted file systems
+show details of mounted file systems / see used/avail space
 - lspci
 lists PCI devices
 - lspci -v
@@ -65,11 +65,4 @@ label to an existing file system – the command is different for each type:
 - e2label /dev/sdb1 Photos
 - fatlabel /dev/sdb1 Music
 %% Run either of these without giving a label to get existing label.
-
-
-- df -h
-see used/avail space
-- lsblk
-show hardware devices
-
 

@@ -99,7 +99,7 @@ BZIP2 (takes less space)
 
 - bzip2 file1 file2 file3
 (compresses file)
-- bunzip2 file.bz2
-(uncompresses file)
+- bunzip2 -dk file.bz2
+(d: uncompresses file, k: preserve original archive)
 
 

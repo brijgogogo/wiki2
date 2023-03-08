@@ -22,19 +22,23 @@
 - [software_architect](software_architect)
 
 
+
 ## Languages / Platforms
-- [dot_net](dot_net/index.md) (C#, F#, asp.net, etc)
-- [js](js/index.md)
-- [golang](./golang/index.md)
+- dynamically typed languages
+  - [dot_net](dot_net/index.md) (C#, F#, asp.net, etc)
+  - [golang](./golang/index.md)
+  - [java](java/index.md)
+  - [c](c/index.md)
+- statically typed languages
+  - [js](js/index.md)
+  - [ruby](ruby/index.md)
+  - [python](python/index.md)
+
 - [perl](perl/index.md)
 - [Erlang](./erlang/index.md)
-- [java](java/index.md)
-- [python](python/index.md)
 - [elm](elm/index.md)
 - [php](php/index.md)
 - [kotlin](kotlin/index.md)
-- [ruby](ruby/index.md)
-- [c](c/index.md)
 - [haskell](haskell/index.md)
 
 ## Messaging
@@ -64,8 +68,9 @@
 - [db_terms](db_terms)
 
 ## Search
-- [elastic_search](elastic_search/index.md)
+- [lucene](lucene/index.md)
 - [solr](solr/index.md)
+- [elastic_search](elastic_search/index.md)
 
 ## Clouds
 - [cloud_computing](cloud_computing/index.md)
@@ -111,6 +116,7 @@
 
 ## Security
 - [encryption](encryption/index.md)
+- [cryptography](cryptograhy/index.md)
 
 ## Shell Scipting
 - [bash](bash/index.md)
@@ -220,3 +226,46 @@ http://jr0cket.co.uk/2016/05/ssh-or-https-that-is-the-github-question.html
 https://medium.freecodecamp.org/demystifying-containers-101-a-deep-dive-into-container-technology-for-beginners-d7b60d8511c1
 https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41
 https://hackernoon.com/38-actions-and-insights-to-become-a-better-software-architect-f135e2de9a1b
+
+
+## Base64
+- decode
+  $ base64 -d file/path
+  $ echo <base64_text> | base64 -d
+- encode
+  $ echo <plain_text> | base64
+  $ base64 file/path
+
+## Web
+* Web 1.0
+  Websites provided information for uers to consume.
+* Web 2.0
+  Users started to create content themselves. Websites became platform to distribute this new type of content. E.g. social media.
+* Web 3.0
+  Semantic Web: web would become more autonomous, intelligent, and open.
+    - AI, blockchain, IOT, AR/VR
+  From simple text processing to intelligent processing.
+  Websites will learn to really understand their users[.](..md)
+  Voice assistants enable users to consume web (no need of computer/smartphone).
+
+
+## Complexity
+Function that describes how many operations you need to perform to get a result.
+Symbolized by O(x), where x is a function of N, where N is the total number of possible operations.
+
+- O(N): linear function: maximum number of operations is N
+
+- O(log2(N)): Dichotomy / binary division / Phone-book principle: sort the items, select a mid item, compare it with item being searched, if it is less than it, pick the first half items and repeat the steps. Similary if it greater, then pick second half items and repeat the steps.
+
+log2 function is the best complexity ever because a significant growth of the number of items yields only a very small growth of the function. e.g. log2(4) = 2, log2(8) = 3, log2(16) = 4, log2(32) = 5, log2(1024) = 10, etc.
+
+## Binary Tree / BTree
+In Log2 complexity, each iteration would take mathematics to divide the items. BTree is the data structure that solves this. We start search from root node and move to left/right node based of if it is lesser/bigger that it.
+
+
+
+
+## little-endian, big-endian
+
+
+

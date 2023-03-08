@@ -17,9 +17,10 @@ adb install file.apk
 adb reboot bootloader
 
 
-## No permissions
-sudo adb kill-server
-sudo adb start-server
+## No permissions (unauthorized)
+1. disable/enable USB debugging in phone
+2. sudo adb kill-server
+   sudo adb start-server
 
 
 ## Debloater

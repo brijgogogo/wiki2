@@ -18,6 +18,10 @@ Ctrl+L : clears shell
 
 CREATE DATABASE <dbName>;
 
+CREATE DATABASE testdb ENCODING 'utf-8';
+
+CREATE USER researcher with LOGIN SUPERUSER ENCRYPTED password 'passw1';
+
 Connect to database
 $ psql -h localhost -p <portNumber> -U <userName> <dbName>
 Connect to db if already in shell

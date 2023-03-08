@@ -37,6 +37,20 @@ By default, ASP.NET Core binds to:
 - [api_versioning](api_versioning)
 - [paths](paths) content root, web root
 
+# Controller action return types
+- Specific Type
+  - If returning IEnumerable<T>, it results in synchronous collection itereations by the serializer. The result is blocking of calls and a potential for thread pool starvation.
+  - Consider returning IAsyncEnumerable<T> to gurantee asynchronous iteration by the serializer.
+- IActionResult
+  - appropriate when multiple ActionResult return types are possible in an action.
+  - ActionResult type represent various HTTP status codes.
+  - e.g. BadRequestResult, NotFoundResult, OkObjectResult, available via ControllerBbase convenience methods (BadRequest(), NotFound(), Ok()).
+  - Consider applying ProducesResponseType attribute as multiple status codes and return types.
+- ActionResult<T>
+  - allows you to return type deriving from ActionResult or return a specific type.
+  - Can exclude ProducesResponseType.Type property as action's return type is inferred from the T in ActionResult<T>.
+  - Implicit ast operators support conversion of both T and ActionResult to ActionResult<T>. T converts to ObjectResult.
+  - C# doesn't support implicit cast operators on interfaces.
 
 ## flavours
 - [web_api](web_api)

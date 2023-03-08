@@ -1,32 +1,38 @@
 # slices
-Collection type which can grow.
+- length is not part of type
+  - can write single function that processes slices of any size
+  - can grow slices as needed
+  - isn't comparable (x == y is compile error). You can do x == nil.
 
-- Declaring variable that holds a slice (same as array, but you don't specify size)
-  var mySlice []int
+```go
+var x = []int{1,2,3} // no need to specify size when using slice literal
+var x = []int{1, 3:1, 3, 7:1, 10} // specify only indices with values
+var x [][]int // simulate multidimensional slices (slice of slices)
+x[0] = 5 // read & write using bracket syntax
 
-  Unlike with array variables, declaring a slice variable dones't automatically create a slice.
+var x []int  // creates a slice of ints, x is assigned zero value of slice (nil)
 
-- Creating slice
-  var mySlice []int
-  mySlice = make([]int, 7) // creates a slice with 7 int
+// slices are not comparable (cannot use == or != with other slices)
+fmt.Println(x == nil) // returns true if slice x is not initialized
 
-- accessing is same as array
-  mySlice[0] = 1
-  fmt.Println(mySlice[0])
+len(x) // give size of slice, 0 if it is nil
 
-- declaration & creation
-  primes := make([]int, 3)
+x = append(x, 10) // grow a slice by adding value 10. x ban be nil or not.
+x = append(x, 2, 3, 4) // append more than one value
+y := []int{50,60,70}
+x = append(x, y...) // append one slice into another using ... operator
+// it is a compile time error if you do not assign the value returned from append.
 
-- lenght of slice
-  fmt.Println(len(primes))
+cap(x) // returns capacity of slice (capacity - memory reserved by Go Runtime)
+// when capacity runs out, Go doubles the size of slice when the capacity is less than 1024 and then grow by at least 25% afterward.
+// if you know the number of items you are going to put into a slice, use make
+// make(type of slice, length, capacity)
+x := make([]int, 5)  // length and capcity both are 5, all elements are initialized with 0.
+x := make([]int, 5, 10) // length 5, capacity 10
+x := make([]int, 0, 10) // non-nil slice with a length of 0
 
-- for loop and for range loops work same as with arrays
 
-## Slice literal
-
-  valueSlices := []int{1, 2, 3}
-
-  s := []struct {
+s := []struct {
       i int
       b bool
     } {
@@ -34,98 +40,31 @@ Collection type which can grow.
       {3, false},
     }
 
-## Slice operator
- slices are built on top of arrays.
-It's the underlying array that actually holds the slice's data.
-The slice is merely a view into some (or all) of the array's elements.
-"make" function or slice literal automatically create the array.
+// slice expression creates a slice from a slice
+x := x[1:3] // [starting offset:ending offset] : slice operator
+x := x[:3] // default starting offset is 0
+x := x[1:] // default ending offset is end of slice
+x :=  x[:]
+// when you take a slice from a slice, you are not making a copy of the data.
+// the two variables share memory, changes to an element in a slice affect all slices that share that element.
 
-Slice operator: to manually create array and then create slice based on it.
-values := [3]int{1,2,3,4,5}
-valuesSlice := values[0:3] // 1: index of array where slice should start, 3: index of array slice should stop before
-fmt.Println(valuesSlice) // prints [1,2,3]
+// full slice expression: [low:high:last-position-in-parent-slice]: used to prevent append from sharing capacity between slices.
 
-  a[low : high]
-  Includes the first element, but excludes the last one.
+y := x[:2] // convert array x to slice
 
-- if you omit the start index, 0 is used
-  values[:3]
-- if you omit stop index, everything from start index to end of underlying array is included in slice
-  values[1:]
-- values[:]
-
-## Changes
-If you change underlying array, those changes will also be visible within the slice, and vice-versa.
-
-## Append
-Built-in "append" method takes a slice and values, returns new slice with values appended.
-  slice :=[]int{1,2,3}
-  slice = append(slice, 4, 5)
-  fmt.Println(slice) // [1 2 3 4 5]
-
-## Default value
-A slice variable has zero value of nil.
-Go functions treat a nil slice value as if it were emtpy slice.
-  - len function will return 0
-  - append function will treat nil slice as empty slice
+destinationSlice := make([]int, 4)
+numberOfElementsCopied := copy(destinationSlice, sourceSlice) // copies as many values as it can from source to destination
+copy(y, x[2:]) // copy from location
+copy(x[:3], x[1:]) // copy into overlapping sections
 
 
-# capacity
-number of elements in the underlying array
-
-fmt.Printf("%d", cap(s))
-
-# Nil slices - length and capacity zero (no underlying array)
-
-# dynamically sized array - make function - allocates a zeroed array, returns a slice that refers to that array
-a := make([]int, 5)   // len(a) = 5           - makes slice
-b := make([]int, 0, 5) // len(b)=0, cap(b) = 5
-b := b[:cap(b)] // len(b) = 5, cap(b) = 5
-b := b[1:] // len(b) = 4, cap(b)=4
-
-
-# slices of slices
-x := [][]string{
-    []string{"_", "_"}
-  }
-
-x[0][0] = "X"
-
-for i := 0; i < len(x); i++ {
-  fmt.Printf("%s", strings.Join(x[i], " ");
-}
-
-# append new elements to a slice
-var s []int
-s = append(s, 0)
-s = append(s, 1)
-s = append(s, 2, 3, 4)
-
-
-# range : gives index and copy of element at the index
-var vals = []int{1, 2, 3}
-
-for i, v := range vals {
-}
-
-// only get index
-for i := range vals
-
-// ignore value
-for i, _ := range [[vals]]
-
-// ignroe index
-for _, value := range vals
-
-
-https://blog.golang.org/slices-intro
-
-
-## sort
-var names []string
-// assign values
+// sort
+var names []string{"b", "c", "a"}
 sort.Strings(names) // sorts slice alphabetically
+// sort.Slice
+```
 
 
 
-
+## sources
+https://blog.golang.org/slices-intro

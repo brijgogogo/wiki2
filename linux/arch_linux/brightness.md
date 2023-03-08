@@ -3,6 +3,9 @@ Brightness settings are at /sys/class/backlight/<driver>.
 Check `max_brightness` file for max brightness and adjust the value in
 `brightness` file.
 
+Use community/acpilight
+Remove xorg-xbacklight
+
 Control brightness using aciplight
 https://gitlab.com/wavexx/acpilight
 
@@ -34,7 +37,7 @@ http://www.thinkwiki.org/wiki/LCD_Brightness#Nvidia_driver
 
 
 
-# Lenovo y540
+# Lenovo y540 (not needed)
 add kernel paramter: acpi_backlight=vendor
 https://wiki.archlinux.org/index.php/Backlight#Kernel_command-line_options
 

@@ -20,6 +20,9 @@ sudo eject /dev/sdb
 install ntfs-3g
 sudo mkntfs --fast --label myUsbDrive /dev/sdb1
 
+## format (GUI)
+Use gparted
+for ntfs install ntfsprogs
 
 
 

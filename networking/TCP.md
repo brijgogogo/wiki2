@@ -1,3 +1,27 @@
+# TCP/IP Models
+4. Application
+3. Transport
+2. Internet
+1. Network Interface
+
+## Network Interface Layer
+Covers physical cabling, MAC addresses, Network cards, other hardware
+
+## Internet Layer
+IP addresses, router
+
+
+## Transport Layer
+Assembly/Disassembly of data packets, and whatever it takes to send data to other end (TCP/UDP)
+
+
+## Applicaiton
+OSI Presentation & Session layer
+
+
+
+
+
 # Transport Layer - Protocols
 - Transmission Control Protocol - TCP
 - User Datagram Protocol - UDP

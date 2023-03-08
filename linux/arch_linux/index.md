@@ -41,7 +41,7 @@ $XDG_CONFIG_HOME : ~/.config
 - [notifications](./notifications.md)
 
 
-- pacman -S ntfs-3g
+- pacman -S ntfs-3g    (probably not needed, ntfs support is now built into linux kernel from 5.15)
 read external hard disk or partitions formatted as ntfs
 
 - lsusb

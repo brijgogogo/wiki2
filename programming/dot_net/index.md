@@ -8,6 +8,7 @@
 * [windows_applications](windows_applications)
 * [dot_net_remoting](dot_net_remoting)
 * [windows_service](windows_service)
+* [orleans](orleans/index.md)
 
 ## concepts
 * [iterators](iterators)

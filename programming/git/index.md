@@ -73,3 +73,23 @@ https://towardsdatascience.com/api-as-a-product-how-to-sell-your-work-when-all-y
 https://hacks.mozilla.org/2020/04/code-quality-tools-at-mozilla/
 
 
+
+
+## Git Hooks
+Extensibility points that are triggered when certain Git actions occur.
+Can be written in any language, they have to be executable. Git checks exit code to determine success or failure.
+
+### Types of hooks
+- Pre-* hooks: called before the git command executes, can abort the git command.
+  - exampless: pre-commit, pre-rebase
+- Post-* hooks: called after git command executes, do not affect the git command.
+  - exampless: post-commit, post-checkout
+- Misc hooks: called while the git command executes, can abort the git command.
+  - examples: prepare-commit-msg, commit-msg
+
+### Location of hooks
+- Client-side hooks: mainly for developer's own productivity or defensive style
+- Server-side hooks: mainly to enforce server repository policy
+
+
+Use --no-verify flag to bypass pre-commit hooks

@@ -55,6 +55,17 @@ tldr
 - [shell_prompts](shell_prompts)
 - starship
 
+## find info on RAM
+sudo lshw -short -C memory
+sudo dmidecode -t 16
+
+## Common commands
+- move/cd by searching
+ mv $(ls | fzf) /path/to/destination
+ cd $(find -type d | fzf)
+- copy with progress bar
+  rsync --progress -auv /path/of/source/file /path/of/destination
+
 
 https://github.com/luong-komorebi/Awesome-Linux-Software
 https://github.com/trimstray/the-book-of-secret-knowledge

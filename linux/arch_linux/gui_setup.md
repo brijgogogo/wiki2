@@ -9,3 +9,5 @@ $ startx
 
 
 Additionally install xorg-apps or xorg group.
+
+picom

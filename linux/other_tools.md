@@ -66,3 +66,16 @@ https://github.com/chubin/awesome-console-services
 
 ## Terminal Multiplexer
 - [tmux](./tmux.md)
+
+## disk space tools
+https://github.com/bexxmodd/vizex
+Optimizt
+
+## firewall
+eBPFSnitch
+
+## Network Monitor
+Nethogs-Qt
+
+## Browser Extensions
+SingleFileZ
