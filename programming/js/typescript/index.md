@@ -42,7 +42,7 @@ let b = [true, false]
 
 
 ## decorator
-Provides metadata about a class
+A decorator is a function that takes a target (the class or method it decorates) and optionally some metadata about the target, then modifies or enhances the target in some way.
 
 - [type_annotations](type_annotations.md)
 - [access_modifiers](access_modifiers.md)

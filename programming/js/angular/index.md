@@ -34,6 +34,60 @@ using #<name> we can refer to the element in the template's data binding
 Used by Angular to handle stage changes in applications.
 
 
+## Forms
+1) Template Driven Forms
+    - Defined in template (HTML) of the component
+    - Rely on directives, two-way binding of inputs to the model
+    - Behind the scenes they use FormGroup, FormControl automatically
+2) Reactive Forms
+    - Defined in component class
+    - Make use of FormControl, FormGroup, FormArray classes to manage form's state and validation
+    - immutable data structures: any change to form control creates a new state
+    - Data model is managed by form controls
+
+## Reactive Forms
+- FormControl: tracks state of an input: valid, valid/invalid, untouched(pristine)/touched(dirty)
+- FormGroup: tracks state of a group of inputs/controls
+- FormGroup and its FormControl(s) constitute FormModel
+
+
+## Local Variable
+- Reference to a DOM element or a directive instance within a template
+- Declared using hash ('#') followed by varible name
+- Below #myInput references <input> element
+  <input #myInput type="text" />
+  <button (click)="logValue(myInput.value)">Log Value</button>
+- local variable to a directive instance: <ng-template #templateOne>...</ng-template>
+
+## [property]="expression"
+Binds a component property to a DOM property
+<img [src]="imageUrl">
+
+## (event)="statement"
+Binds a DOM event to a method in your component
+<button (click)="onClick()">Click me</button>
+
+## [(ngModel)]="property"
+Combines property binding and event binding to create a two-way data binding
+<input [(ngmodel)]="name">
+This is syntactive sugar for: <input [ngModel]="name" (ngModelChange)="name=$event"
+
+## @ViewChild decorator
+- Used to get a reference to a child component, directive or DOM element from the view
+- Reference to a child component:
+  @ViewChild(ChildComponent) child: ChildComponent;
+  child.someMethod();
+- Reference to a native DOM element
+  <input #inputElement type="text">
+  @ViewChild('inputElement') input: ElementRef;
+  this.input.nativeElement.focus();
+- static: if you need to access the queries element or component before Angular has rendered the view
+  @ViewChild('inputElement', {static: true}) input: ElementRef;
+  - true: query resolves before change detection runs
+  - false: query resolves after change detection
+
+
+
 ## pending
 https://rishabh.io/misc/how-to-create-an-angular-4-app-from-scratch.html
 https://1904labs.com/2017/05/06/1399/
