@@ -1,11 +1,8 @@
 # angular modules
-In Angular, modules serve as an encapsulation mechanism for the application building blocks — components, directives, pipes. And while there is no encapsulation for services, modules still act as container where services can be registered.
-
-* An Angular application comprises of separate modules which are closely related blocks of functionality.
-* Angular Modules contains angular components, organizes the application into a cohesive blocks of functionality.
-* Every Angular application has at least one module: the root module (mostly named `AppModule`).
-* There can be multiple angular modules in an angular application.
-* Angular Modules are different from ES Modules, which are code files that import or export something, for code reuse.
+- Groups together related components, directives, pipes, and services into chohesive blocks of functionality.
+- Every Angular application has at least one root module (often called `AppModule`).
+- There can be multiple angular modules in an angular application.
+- A `module` is a plain TypeScript class with the @`NgModule` decorator.
 
 
 ```typescript
@@ -31,20 +28,23 @@ bootstrap: [AppComponent]
 export class AppModule {  }
 ```
 
-A `module` is a plain TypeScript class with the @`NgModule` decorator. The decorator tells Angular that this class is going to be a module. This decorator adds metadata above this class. In the decorator are array attributes which Angular looks for in a module class:
 
-`declarations` - to declare which components, directives or pipes are in this module.
+`declarations` - declares which components, directives or pipes belong to the module
 
-`imports` - to specify what other modules do we use for this module.
-  - BrowserModule: contains code Angular features required for a web application.
+`imports` - imports other modules to use their exported features
 
-`providers` - to specify any application wide services we want to use.
+`providers` - provides services that can be injected throughout the module
 
 `bootstrap`: which component to start the app with (root component)
 
-`exports`: tells the classes which can be used in other parts of the application.
+`exports`: exports selected components, directives or pipes to make them available to other modules
 
 
 ## Types of Angular modules
-- feature module: used to group related application functionality to make the application easier to manage.
-- root module: used to describe the application to Angular. (convention: src/app/app.module.ts).
+- Root Module: bootstraps the Angular application, usually called `AppModule`. Every app has exactly one root module.
+- Feature Module: encapsulates a feature/functionality, helping in code organizatin and lazy loading.
+- Shared Module: Contains commonly used components, directives, pipes that are reused across other modules.
+- Core Module: Houses app-wide singleton services and components that should be instantiated only once.
+- Routing Module: Defines routes for a feature or entire app.
+
+

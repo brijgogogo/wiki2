@@ -1,5 +1,6 @@
 # decorator
-A function that adds metadata to a class, its members, or its method arguments.
+Special functions, prefixed with the @ symbol, that allow you to attach metadta to classes, methods, properties or parameters.
 
-Prefixed with an @
+Decorators are written as @DecoratorName(parameters) above the class, method, property or parameter they modify.
+
 

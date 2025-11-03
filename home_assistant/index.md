@@ -1,5 +1,8 @@
 # Home Assistant
 
+- Home Assistant Core: Home automation application itself, written in Python
+- Home Assistant A dedicated OS for Home Assistant. It includes Home Assistant Core, Supervisor, Add-on store, Full system management.
+
 # YAML
 HA configuration syntax.
 Example:

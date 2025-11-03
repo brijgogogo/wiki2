@@ -15,6 +15,7 @@
 ## wiki
 
 - [linux](./linux/index.md)
+- [macos](./macos/index.md)
 - [editors](editors/index.md)
 - [programming](./programming/index.md)
 - [home_assistant](./home_assistant/index.md)
@@ -147,13 +148,6 @@ https://chicfetti.com/file-category/free-party-printables/
 2021: 230EUR
 2022: 255EUR
 
-
-
-## Homebrew / brew
-- Package manager for macOS
-- Formulae: In Homebrew, a "formula" is a script written in Ruby that describes how to install a piece of software. It includes the software’s source URL, dependencies, and installation instructions.
-- Casks: Homebrew Cask extends Homebrew and allows the installation of macOS applications distributed as binaries. This is particularly useful for GUI applications.
-- Taps: These are third-party repositories that contain additional formulae or casks. Users can add taps to access more software packages not included in the main repository.
 
 
 
@@ -380,128 +374,324 @@ Worked on Devexpress winforms controls, Logging, Trade Processing, Geneva, Gemfi
 
 
 
-## Things to Take
-- Passport
-- IDP
-- IRP cards
-- Travel Adapters
-- Power banks
-- Neck pillows
-- Aariv's sleeping pillow
-- Flight entertainment for Aariv
-- Disney Trip:
-	- Water and Food (very expensive inside)
-	- Take swim dress, towel, extra clothes
+
+## AI Model
+An AI model refers to a computer program designed to perform tasks that typically require human intelligence, such as learning, reasoning, and problem-solving. It is trained on datasets to identify patterns, make predictions, or automate decision-making without constant human intervention. AI models are foundational to artificial intelligence systems, enabling applications like natural language processing, facial recognition, and self-driving cars.
+
+## LLM
+LLM stands for Large Language Model, which is a type of artificial intelligence (AI) model specifically designed to process, understand, and generate human-like text. These models leverage deep learning techniques and massive datasets to perform various natural language processing (NLP) tasks, such as text generation, translation, summarization, and question answering.
+
+## Perplexity
+Perplexity is a free AI-powered search engine. It searches the internet in real-time, identifies relevant sources, and generates high-quality answers. Perplexity prioritizes accuracy and reliable answers, aiming to serve as your definitive source for knowledge discovery.
 
 
-## Things to buy in US
-
-## Airbnbs
-1) 318 Walnut Street, Hollywood, FL 33019, United States
-	Check-in 4 PM (13th Sept, Friday)
-	Check-out 10 AM (15th Sept, Sunday)
-2) 5324 Fairfield Lake Drive, Kissimmee, FL 34746, United States
-	Check-in 4 PM (15th Sept)
-	Check-out 10 AM (18th Sept)
-3) 1230 Southwest 73rd Place, Miami, FL 33144, United States
-	Check-in 4 PM (18th Sept)
-	Check-out 11 AM (22nd Sept)
-
-## Travels
-1) 13th Sept, Fri - Flight: Dublin to Miami (10 AM to 7 PM)
-2) 13th Sept, Fri - Flight: Praful TBD
-3) 15th Sept, Sun - Drive: Miami to Orlando (4 hours)
-4) 18th Sept, Wed - Drive: Orlando to Miami (4 hours)
-5) 22nd Sept, Sun - Flight: Praful TBD
-6) 22nd Sept, Sun - Flight: Miami to Dublin (3:20 PM to 9:15 AM)
+## Dublin Trip
+### County Mayo
+https://www.youtube.com/watch?v=xm6ulDfw_Ck
+- Sunset at Down Patrick Head
+	- Cave
+- Ceide Fields
+	- 2 KM walk
+- Portacloy Cliff Walk
+- Ballycroy National Park
+- Keem Bay, Achill Island
+- Deserted Village, Achill Island
+- Doolough Valley
 
 
-## Miami Trip
-Day 1, Friday 13th Sept
-	- 5 AM: Wake up
-	- 6 AM: Leave from home
-	- 6:30: Reach Dublin airport
-	- 10 AM: Flight take off
-	- Flight: Dublin to Miami
-	- Airbnb Checkin 4 PM *****************
-Day 2, Saturday 14th Sept
-	- Morning:
-		- Grocery Shopping
-		- Breakfast
-		- South Beach / Lummus Park
-	- Afternoon
-		- Ocean Drive (Stroll)
-Day 3, Sunday 15th Sept
+
+
+
+## North Wales
+- May 29, Thu
 	- Morning
-		- Airbnb Checkout 10 AM *****************
-		- Miami Seaquarium
-	- Afternoon
-		- Coconut Grove
-			- Visit Peacock Park, where your child can play
-	- 4 PM - Travel to Orlando (4 hours)
-	- Dinner on the way
-	- Airbnb Checkin 4 PM *****************
-Day 4, Monday 16th Sept:
-	- Magic Kingdom (Walt Disney World)
-		- 9 AM to 10 PM (Monday)
-		- Walt Disney World Railroad - Fantasyland (train)
-		- Big Thunder Mountain Railroad (Train)
-		- Seven Dwarfs Mine Train
-		- Tina's Bayou Adventure
-		- Astro Orbiter
-		- The Barnstormer
-		- Buzz Lighyear's Space Ranger Spin
-		- It's a Small World
-		- Jungle Curuise
-		- Liberty Square Riverboat (17 mins trip)
-		- Dumbo the Flying Elephant
-		- Walt Disney Carousel of Progress
-		- Mad Tea Party (spinning)
-		- Magic Carpets of Aladdin
-		- Peter Pan's Flight
-		- Tomorrowland Transit Authority PeopleMover (10 mins tour)
-		- Casey Jr. Splasn N Soak Station (will get wet)
-		- Haunted Mansion
-		- Main Street Vehicle (vintage vehicles ride)
-		- 2 PM: Disney Festival of Fantasy Parade (12 mins)
-		- 8:30 PM: Fireworks - Happily Ever After
-Day 5, Tuesday 17th Sept
-	- Animal Kingdom (Walt Disney World)
-		- 9 AM to 6 PM
-		- Places to eat:
-			- Satu'li Canteen
-			- Yak & Yeti Restaurant
-		- Kilimanjaro Safaris (open-air vehicle guided tour of savanna)
-		- Festival of the Lion King show (40 mins) (10 AM, 11 AM, 12 PM)
-		- Na'vi River Journey (Boat Journey)
-		- Boneyard playground
-		- TriceraTop Spin
-		- Dinosaur (Rover vehicle)
-		- TriceraTop Spin
-		- Kali River Rapids
-		- Gorilla Falls Exploration (trek - gorillas, hippos, zebra) (30 mins)
-		- Tram Tam Drummers of Harambe (10:15, 11:15, 12:15)
-		- Maharajah Jungle Trek (tigers, komodo dragon, fox, etc) (30 mins)
-Day 6, Wednesday 18th Sept
-	- Airbnb Checkout 10 AM *****************
-	-  Lake Buena Vista Factory Stores
-	- Orlando Vineland Premium Outlets
-	- 4 PM - Travel back to Miami (4 hours)
-	- Airbnb Checkin 4 PM *****************
-Day 7, Thursday 19th Sept
-Day 8, Friday 20th Sept
-	- Everglades National Park (2 hours)
-		- Take a family-friendly airboat tour of the Everglades. It’s a unique way to see wildlife like alligators and birds.
-Day 9, Saturday 21st Sept
-	- Key Biscayne: Visit Crandon Park for beach time and playground fun.
-	- Lincoln Road Mall (Shopping)
-Day 10, Sunday 22nd Sept
-	- Airbnb Checkout 11 AM *****************
-	- Flight to Dublin
+	   - Ferry from Dublin to Holyhead (3:30 hours)
+	   - Breakfast/brunch on the way
+	- Noon:
+		- Lunch
+		- Check-in AirBnb: Locations: Llandudno, Conwy
+	- Evening: ?????
+- May 30, Fri
+	- Morning, Noon: Greenwood Family Park (adventure park for kids)
+	- Evening: ?????
+- May 31, Sat
+	- Morning: Llanberis Lake Railway
+	- Noon: Lunch/Picnic at Padarn Country Park (near train station)
+	- Evening: National Slate Museum (free, near train station)
+- Jun 1, Sun
+	- Morning, Noon: Llandudno Pier and Beach
+	  - Ride the land train along the seafront and visit the playground at Happy Valley Gardens
+	  - Take the Great Orme Tramway for spectacular views
+	- Evening: Conwy Castle & Quay
+- Jun 2, Mon
+	- Morning: Welsh Mountain Zoo
+	- Noon: Pont-y-Pair Bridge
+	- Late Evening: Ferry from Holyhead to Dublin (3:30 hours)
 
 
 
 
+## Kerry
+- Day 1 Saturday - Kids Day
+Ring of Kerry
+1. O’Carrols Cove (first stop) - no bath at Airbnb, bath here
+2. Derrynane beach
+3. Kerry Cliffs (last stop)
+This covers half of Ring of Kerry route. Enjoy scenic route on the way.
+The route back is from other side of Ring of Kerry.
+
+- Day 2 Sunday - Ladies Photoshoot Day
+Slea Head Drive (38 km), starts and ends in Dingle Town
+Start point: Dingle (enjoy Murphy's breach)
+Stop 1: Ventry Beach
+Stop 2: The White Cross
+Stop 3: Dunmore Head Viewpoint
+Stop 4: Coumeenoole Beach
+Stop 5: Dun Chaoin Pier
+Stop 6: The Blasket Centre
+Stop 7: Ceann Sibeal View Point
+Stop 8: Clogher Strand
+Stop 9: Gallarus Oratory 
+End point: Dingle
+Dingle Peninsula, Dunquin Pier (sunset)
+https://www.theirishroadtrip.com/slea-head-drive/
+
+- Day 3 Monday - Journey back to home
+1. Gap of Dunloe / Walk the Kerry Way
+2. Torc Waterfall (Optional)
+2. Ladies view, Killarney National Park (Optional)
+On the road to home
 
 
+
+
+Sauce Creek, Dingle Peninsula, 90 mins trek
+
+
+## 
+13th September: Flight to Delhi
+S/S: Sept 20, 21: Aariv Birthday
+S/S: Sept 27/28: Vaishno
+25: Train to Katra (night preferable)
+Vaishno Devi Entry Ticket
+Electric Car Ticket
+S/S: Oct: 4/5
+
+
+Praful flight landing 19th Friday, 9:30 PM 
+Praful flight takeoff  21st Oct
+
+
+NDLS: Vande Bharat: 6:00 AM - 2/3 PM (Katra) => Katra Bus Stand => RFID Card
+Reservation starts 2 months before
+ID Proof / Aadhaar Card for All
+
+Only Bus Stand has RFID Card
+
+Only Post-Paid mobile works, Prepaid doesn't work
+
+New Way (Tarakot): wider, no horses, no palki, only Walk
+Old Way (BanGanga): congested way, shops around, horses, palki, trolley (Rs. 800/900 fixed rate) etc
+
+Bottom Ardhkumari: 8 KM
+Ardhkumari to top: 6 KM (more slope)
+Horse: (Rs. 650 till Ardhkumari, further 650 till top)
+Ardhkumari: Half Way
+Horse: 2 hours to Ardhkumari
+Washrooms on the way
+
+5/6 hours for half journey
+
+Take only 1/2 water bottle, you will get shops.
+
+Eat food at Ardhkumari, rest then walk. Don't eat and walk.
+
+1 hour Aarti at Ardhkumari at 6/7 PM, need to take token at Ardhkumari.
+Gharbjun
+
+Take new way from Ardhkumari to top.
+Don't take stairs.
+
+Vaishno Devi
+- Washroom, Bath (water outage possible)
+
+- Aarti/Bhavan - Online booking
+- Rs. 2K per person or 4 People group Aarti Package (Group Atka Aarti) (room for around 2-3 hours around Aarti)
+	- 2 times per day (6:30 AM to 8:30 AM, 7PM to 9PM)
+	- 2 hours Aarti, Yaga for 11K
+	- Durga Bhavan - get slip with token, prasad, get gate number for Aarti
+- Locker Room: Digital Locker (Rs. 50 for 2 hours) (put mobile, smart watch, shoes in a bag (take it with you))
+- Skywalk route for Darshan of Bhavan
+
+Vaishno Devi to Bhairo baba: 2 KM
+Cable Cart / Rope Way is here near Sagar Ratna restaurant.
+	- Token online, Rs. 50 per head
+	- 7 AM to 7 PM
+
+Take bedsheet for resting.
+
+Vaishno Devi to down - New Way - 5 hours
+
+New Shradha Hotel, near Railway Station
+Take Prasad for giving to others at local place.
+
+At end submit RFID at Gate of Tarakot/Banganga
+
+
+## Vaishno Devi Trip, Sept 2025
+- Katra Railway Station
+- Get RFID card for every member at Katra Railway Station or Katra Bus Stand
+- Trek up is crowded during day
+- Entry Pass - online booking, Counter at Entry Gate to give pass
+
+- Routes
+- Temple Route
+	1. Darshani Darwaza (Katra) - 1 KM from bus stand
+		- View of Trikuta Mountains
+	2. Ban Ganga (2,700 ft height)
+		- Place where a spring emerged when when Goddess Vaishnavi shot an arrow into the ground for her thirstry friend Langoor
+		- Bathe in pure waters of the pond
+	3. Charan Paduka (3,380 ft height)
+		- Holy feet of Mata are imprinted on a rock slab
+	4. Adhkuwari (6km from the Holy Bhawan) - midpoint
+		- Garbh Joon (womb shaped cave) - Mata meditated and observed spiritual discipline for 9 months
+		- Whoever passes through the cave their past sings gets washed away
+	5. Himkoti (2.75km from Adkuwari - new route)
+		- Panoramic view of the whole valley
+	6. Sanjhichhat (6,200 ft above sea level)
+		- 2km away from Vaishno Devi Mandir
+	7. Mata ka Bhawan / Holy Bhawan
+		- Houses the Sanctum Sanctorum
+		- Goddess disclosed herself and is in form of a natural rock
+		- The rock has 3 different colored heads (Holy Pindies) at the top with single base
+		- 3 Heads: Kali Mata, Lakshmi Mata, Ma Saraswati
+	8. Bhairon Temple
+		- Bhairon's head fell here
+		- Trip is complete only by visiting this
+		
+Tracks:
+1. Old Track: 
+	- Banganga -> Charan Paduka -> Adhkuwari -> Sanjichhat -> Bhawan -> Bhairon Ghati
+	- Banganga to Adhkuwari: 5.5km
+	- Ponies, Porters, Palanquins
+	- Adhkuwari to Bhawan: 6km
+2. New Track: 
+	- Banganga -> Tarakote Marg -> Adhkuwari -> Himkoti -> Bhawan -> Bhairon Ghati
+	- Banganga to Adhkuwari: 7km
+	- Cleaner
+	- Adhkuwari to Bhawan: 5km
+	- Less steep
+	- Porters, Palanquins, Battery-rickshaws available
+
+
+
+
+## EV Charger
+Tethered Charger, Type 2
+
+
+
+## Learn
+Python for AI/ML - Tensorflow, PyTorch, Hugging Face
+Rust or Solidity for blockchain, Web3.js, decentralized apps (dApps)
+Go for high-performance systems
+DeFi
+Docker/Kubernetes, Github Actions, Jenkins
+Azure / AWS
+
+
+Brij Kishore Sharma
+Age: 38
+Aadhaar: 8235 3675 5710
+
+Prachi Nautiyal Sharma
+Age: 35
+5799 0282 2200
+
+## Vaishno Devi Trip ##
+Thursday 6 AM - Train
+Thursday 3-4 PM - Katra hotel
+Friday 5-6 AM - Leave from Katra, breakfast on the way, take snacks
+Friday - 11/12 PM - Adhkuwari / Lunch
+Friday - 4 PM - Bhawan, take Ropeway to Bhairon
+Friday - 8-9 PM - Bhawan, check-in to Room
+Saturday - 7 AM - Bhawan, darshan
+Saturday - 12 PM - Katra hotel
+Sunday morning - leave for Delhi
+
+## new Vaishno Devi Trip ##
+Thursday 6 AM - Train
+Thursday 3-4 PM - Katra hotel
+Friday 5-6 AM - Leave from Katra, breakfast on the way, take snacks
+Friday - 11/12 PM - Adhkuwari / Lunch
+Friday - 4 PM - Bhawan, take Ropeway to Bhairon
+Friday - 8-9 PM - Bhawan, check-in to Room
+Saturday - 7 AM - Bhawan, darshan
+Saturday - 12 PM - Katra hotel
+Sunday morning - leave for Delhi
+
+
+October, Thu 9, 10, 11, 12
+Vaishno Devi: Brij, Prachi, Aariv, Praful, Sasurji, Saasuji, Saurav Saxena, 
+
+
+
+## Dehradun/Bhandara
+16, Thu, Delhi to Dehradun
+18, Sat, Bhandara
+19, Sun, Dehradun to Delhi (Prachi/Brij)
+
+
+
+
+## Delhi to Amritsar (Take ID Proof of all)
+23rd Oct, Thursday
+- Leave around 6/7 AM
+- 1st Stop: Murthal Dhaba, NH44 (~55 KM, 1 hr 15 min)
+	- Breakfast: Amrik Sukhdev (stuffed parathas and lassi)
+- 2nd Stop: Karnal Lake (~85 KM, 1 hr 40 min)
+- 3rd Stop: Kurukshetra (Jyotisar) (~30 KM, 40 min)
+- 4th Stop: Ludhiana (~157 KM, 3 hr)
+	- Lunch: Zimidara Hotel (Punjabi thali, parathas, and buttermilk)
+	- War museum (history)
+- 5th Stop: Amritsar (~141 KM, 2 hr 40 min)
+	- Check into hotel
+	- Dinner: Kava Grill & Lounge or Charming Chicken 
+	- Rest
+24th Oct, Friday
+	- Golden Temple (Harmandir Sahib)
+		- Early morning (5-6 AM) to avoid crowd
+	- Breakfast: Lungar at Golden Temple or Kanha Sweets (Amritsari kulcha, chole)
+	- Jallianwala Bagh memorial
+	- Partition Museum
+	- Hall Bazaar, Katra Jaimal Singh
+		- Shop for phulkari embroidery & handicrafts
+	- Lunch: Bade Bhai Ka Brothers Dhaba or Kulcha Land (Amritsari kulchas, tangy chole)
+	- Durgiana Temple 
+	- Gobindgarh Fort (museum, laser show)
+	- Dinner
+		- Makhan Fish and Chicken Corner (Amritsari fish)
+		- Desert: Kesar Da Dhaba’s legendary phirni and dal makhani
+25th Oct, Saturday
+	- Breakfast: Bharawan Da Dhaba
+	- Morning: Relax or visit the Durgiana Temple and nearby historic sites
+	- Early lunch
+		- Grand Trunk, Protein Bäckerei, or Brother’s Amritsari Dhaba.
+	- Wagah Border (~35 KM, 1 hr), arrive by 3:15 PM
+		- Flag lowering Ceremony - 5:15 PM (45 mins)
+		- Bring ID Proof, Water, Snacks
+	- Amritsar
+	- Dinner: Haveli (Punjabi dinner)
+	- Night walk by the illuminated Golden Temple 
+26th Oct, Sunday
+	- Breakfast: Giani Tea Stall or Novelty Sweets & Restaurant
+	- Hall Bazaar or Lawrence Road for souvenirs
+	- Jalandhar (~80 KM, 1 hr 30 min)
+		- Devi Talab Mandir
+	- Chandigarh (~148 KM, 2 hr, 40 min)
+		- Lunch at Pal Dhaba
+		- Rock Garden, Sukhna Lake
+	- Karnal (128 KM, 2 hr, 30 min) 
+		- Dinner (Haveli Dhaba or Savoy Greens (KFC, McDonalds))
+	- Delhi (130 KM, 2 hr 30 min) - late night
 

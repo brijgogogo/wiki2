@@ -14,6 +14,29 @@ Javascript framework  for SPA.
 - [tree_shaking](tree_shaking)
 - [http](http)
 
+## Angular Decorators
+- Class Decorators
+@Component, @NgModule, @Injectable, @Directive, @Pipe
+- Property Decorators
+@Input, @Output
+- Method Decorators
+@HostListener
+- Parameter Decorators
+@Inject
+
+
+## @Input decorator
+Allows a parent component to pass data into a child component.
+@Input() message: string
+<app-child [message]="'Hello'"></app-child>
+
+## @Output decorator
+Allows a child component to send data or events to its parent component.
+@Output messageEvent = new EventEmitter<string>();
+this.messageEvent.emit('Hello');
+<app-child (messageEvent)="receiveMessage($event)"></app-child>
+receiveMessage(message: sring) { }
+
 ## Observables
 Observables provide support for passing messages between parts of your application.
 
